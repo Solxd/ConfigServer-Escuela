@@ -18,15 +18,8 @@ eureka:
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 10
 
-  app:
+app:
   internal-secret: clave-interna-gateway-2026-sols-ozi
-
-spring:
-  security:
-    oauth2:
-      resourceserver:
-        jwt:
-          secret-key: MiClaveSecretaSuperSeguraParaElColegio123456
 
 ---
 spring:
