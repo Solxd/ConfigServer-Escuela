@@ -20,6 +20,7 @@ eureka:
 
 app:
   internal-secret: clave-interna-gateway-2026-sols-ozi
+  
 
 spring:
   security:
