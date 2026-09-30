@@ -38,3 +38,10 @@ eureka:
 
   instance:
     lease-renewal-interval-in-seconds: 10
+
+jwt:
+  secret: MiClaveSecretaSuperSeguraParaElColegio123456
+
+app:
+  # Clave compartida entre gateway y micros
+  internal-secret: clave-interna-gateway-2026-sols-ozi
