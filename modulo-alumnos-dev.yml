@@ -18,6 +18,9 @@ eureka:
     prefer-ip-address: true
     lease-renewal-interval-in-seconds: 10
 
+  app:
+  internal-secret: clave-interna-gateway-2026-sols-ozi
+
 spring:
   security:
     oauth2:
