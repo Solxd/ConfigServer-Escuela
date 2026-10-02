@@ -31,6 +31,27 @@ spring:
               predicates:
                 - Path=/personal/**
 
+            - id: swagger-alumno
+              uri: lb://modulo-alumnos
+              predicates:
+                - Path=/alumno/swagger-ui/**,/alumno/swagger-ui.html,/alumno/v3/api-docs/**
+              filters:
+                - StripPrefix=1
+
+            - id: swagger-cursos
+              uri: lb://modulo-cursos
+              predicates:
+                - Path=/curso/swagger-ui/**,/curso/swagger-ui.html,/curso/v3/api-docs/**
+              filters:
+                - StripPrefix=1
+
+            - id: swagger-administracion
+              uri: lb://modulo-administracion
+              predicates:
+                - Path=/administracion/swagger-ui/**,/administracion/swagger-ui.html,/administracion/v3/api-docs/**
+              filters:
+                - StripPrefix=1
+                
 eureka:
   client:
     service-url:
