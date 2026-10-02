@@ -21,7 +21,12 @@ eureka:
 
 app:
   internal-secret: clave-interna-gateway-2026-sols-ozi
-
+  
+springdoc:
+  swagger-ui:
+    path: /alumno/swagger-ui.html
+  api-docs:
+    path: /alumno/v3/api-docs
 ---
 spring:
   config:
