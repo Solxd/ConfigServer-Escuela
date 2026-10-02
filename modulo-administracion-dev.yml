@@ -24,9 +24,9 @@ app:
 
 springdoc:
   swagger-ui:
-    path: /curso/swagger-ui.html
+    path: /administracion/swagger-ui.html
   api-docs:
-    path: /curso/v3/api-docs
+    path: /administracion/v3/api-docs
 ---
 spring:
   config:
